@@ -39,11 +39,11 @@ public class ListViewAdapter extends ArrayAdapter<ListData> {
         kentyoText = (TextView)convertView.findViewById(R.id.kentyo);
         yomi_kentyoText = (TextView)convertView.findViewById(R.id.yomi_kentyo);
 
-        idText.setText(data.getId());
-        nameText.setText(data.getName());
-        yomiText.setText(data.getYomi());
-        kentyoText.setText(data.getKentyo());
-        yomi_kentyoText.setText(data.getYomi_kentyo());
+        idText.setText(data.getDenpyoNumber());
+        nameText.setText(data.getKariType());
+        yomiText.setText(data.getKanriNumber());
+        kentyoText.setText(data.getUserName());
+        yomi_kentyoText.setText(data.getKanriName());
 
         return convertView;
     }
