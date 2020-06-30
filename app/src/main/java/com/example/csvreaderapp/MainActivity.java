@@ -56,10 +56,8 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(listViewAdapter);
 
         System.out.println("DATE:" + getNowDate());
-
-
+        
 //        db.delete(DBHelper.DB_TABLE, null, null);
-
 
     }
 
